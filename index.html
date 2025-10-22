@@ -4,14 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sabor Toon</title>
+  <title>Receitas - Sabor Toon</title>
   <link rel="icon" type="image/png" href="images/icone.png">
 
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script:wght@400;600;700&display=swap"
-    rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script:wght@400;600;700&di…
+    rel=" stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -25,106 +23,520 @@
       </button>
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#informacoes">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
           <li class="nav-item"><a class="nav-link" href="#receitas">Receitas</a></li>
-          <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header id="home" class="text-center py-5 bg-light">
+  <header class="text-center py-5 bg-light">
     <div class="container">
-      <h1 class="display-5 fw-bold">Sabor Toon</h1>
-      <p class="lead">Sabores mágicos e divertidos direto das telas!</p>
-      <a href="receitas.html" class="btn btn-lg btn-success mt-3">Explorar Receitas</a>
+      <h1 class="display-5 fw-bold">Receitas do Sabor Toon</h1>
+      <p class="lead">Sabores mágicos direto dos desenhos e animes!</p>
+      <a href="index.html" class="btn btn-success mt-3">Voltar à Página Inicial</a>
     </div>
   </header>
 
-  <section id="informacoes" class="py-5 text-center">
+  <section id="receitas" class="py-5">
     <div class="container">
-      <h2>Sobre o Projeto</h2>
-      <p class="fs-5">
-        Inspirado nas comidas mais icônicas dos desenhos e animes, o Sabor Toon traz um pedacinho do mundo da fantasia
-        para a sua mesa.
-        Cada receita é uma homenagem ao sabor e à imaginação.
-      </p>
-    </div>
-  </section>
+      <h2 class="text-center mb-5">Nossas Receitas Especiais</h2>
 
-  <section id="receitas" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-5">Receitas em Destaque</h2>
-      <div class="row g-4">
-
-        <div class="col-md-4">
-          <div class="card-receita">
-            <img src="images/ramen_naruto.jpg" alt="Ramen Naruto">
-            <div class="conteudo-card">
-              <h3>Ramen do Naruto</h3>
-              <p>O prato mais amado pelos ninjas de Konoha. Um caldo quente e saboroso!</p>
-              <a href="receitas.html#ramen" class="btn btn-success mt-2">Ver Receita</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card-receita">
-            <img src="images/dorayaki_doraemon.jpg" alt="Dorayaki Doraemon">
-            <div class="conteudo-card">
-              <h3>Dorayaki do Doraemon</h3>
-              <p>As panquecas doces que o robô azul mais ama. Fofinhas e deliciosas!</p>
-              <a href="receitas.html#dorayaki" class="btn btn-success mt-2">Ver Receita</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card-receita">
-            <img src="images/amendoim_ticoeteco.jpg" alt="Amendoim Tico e Teco">
-            <div class="conteudo-card">
-              <h3>Amendoim do Tico e Teco</h3>
-              <p>Docinho crocante e caramelizado — perfeito para as travessuras da dupla!</p>
-              <a href="receitas.html#amendoim" class="btn btn-success mt-2">Ver Receita</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card-receita">
-            <img src="images/panquecas_pooh.jpg" alt="Panquecas do Pooh">
-            <div class="conteudo-card">
-              <h3>Panquecas do Ursinho Pooh</h3>
-              <p>Fofinhas e douradas, cobertas com mel — o lanche favorito do Pooh!</p>
-              <a href="receitas.html#pancakes" class="btn btn-success mt-2">Ver Receita</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card-receita">
-            <img src="images/onigiri_anime.jpg" alt="Onigiri Japonês">
-            <div class="conteudo-card">
-              <h3>Onigiri Japonês</h3>
-              <p>Um clássico dos animes! Bolinhos de arroz recheados e envoltos em alga.</p>
-              <a href="receitas.html#onigiri" class="btn btn-success mt-2">Ver Receita</a>
-            </div>
-          </div>
+      <div id="ramen" class="card-receita my-4">
+        <img src="images/ramen_naruto.jpg" alt="Ramen do Naruto">
+        <div class="conteudo-card p-3">
+          <h3>🍜 Ramen do Naruto</h3>
+          <p><strong>Origem:</strong> Anime Naruto</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>500 ml de caldo de frango</li>
+            <li>1 pacote de macarrão para lámen</li>
+            <li>1 ovo cozido</li>
+            <li>1 fatia de carne de porco</li>
+            <li>Molho de soja e cebolinhas a gosto</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Ferva o caldo de frango, adicione o molho de soja e os temperos.
+            Cozinhe o macarrão, escorra e coloque no caldo.
+            Acrescente o ovo, a carne e finalize com cebolinha.
+          </p>
         </div>
       </div>
-    </div>
-  </section>
 
-  <section id="galeria" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Galeria</h2>
-      <div class="row g-4">
-        <div class="col-md-4"><img src="images/ramen_naruto.jpg" class="img-fluid rounded shadow-sm" alt="Ramen"></div>
-        <div class="col-md-4"><img src="images/dorayaki_doraemon.jpg" class="img-fluid rounded shadow-sm"
-            alt="Dorayaki"></div>
-        <div class="col-md-4"><img src="images/amendoim_ticoeteco.jpg" class="img-fluid rounded shadow-sm"
-            alt="Amendoim"></div>
+      <div id="dorayaki" class="card-receita my-4">
+        <img src="images/dorayaki_doraemon.jpg" alt="Dorayaki do Doraemon">
+        <div class="conteudo-card p-3">
+          <h3>🍩 Dorayaki do Doraemon</h3>
+          <p><strong>Origem:</strong> Anime Doraemon</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>2 ovos</li>
+            <li>100g de açúcar</li>
+            <li>130g de farinha de trigo</li>
+            <li>1 colher de chá de fermento</li>
+            <li>Doce de feijão azuki (ou doce de leite) para o recheio</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Misture os ingredientes e asse pequenas panquecas douradas.
+            Recheie com o doce e feche como um sanduíche.
+          </p>
+        </div>
+      </div>
+
+      <div id="amendoim" class="card-receita my-4">
+        <img src="images/amendoim_ticoeteco.jpg" alt="Amendoim do Tico e Teco">
+        <div class="conteudo-card p-3">
+          <h3>🥜 Amendoim do Tico e Teco</h3>
+          <p><strong>Origem:</strong> Desenho Tico e Teco</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>2 xícaras de amendoim cru</li>
+            <li>1 xícara de açúcar</li>
+            <li>½ xícara de água</li>
+            <li>1 colher de sopa de chocolate em pó (opcional)</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Misture todos os ingredientes em uma panela e leve ao fogo médio.
+            Mexa até o açúcar cristalizar e o amendoim ficar crocante.
+          </p>
+        </div>
+      </div>
+
+      <div id="pancakes" class="card-receita my-4">
+        <img src="images/panquecas_pooh.jpg" alt="Panquecas do Pooh">
+        <div class="conteudo-card p-3">
+          <h3>🥞 Panquecas do Ursinho Pooh</h3>
+          <p><strong>Origem:</strong> Desenho Ursinho Pooh</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>1 xícara de farinha</li>
+            <li>1 colher de chá de fermento</li>
+            <li>1 ovo</li>
+            <li>1 colher de sopa de mel</li>
+            <li>1 xícara de leite</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Misture os ingredientes até formar uma massa homogênea.
+            Cozinhe pequenas porções em frigideira antiaderente e sirva com mel.
+          </p>
+        </div>
+      </div>
+
+      <div id="onigiri" class="card-receita my-4">
+        <img src="images/onigiri_anime.jpg" alt="Onigiri Japonês">
+        <div class="conteudo-card p-3">
+          <h3>🍙 Onigiri Japonês</h3>
+          <p><strong>Origem:</strong> Diversos animes</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>2 xícaras de arroz japonês</li>
+            <li>Sal a gosto</li>
+            <li>Recheio: atum com maionese ou salmão grelhado</li>
+            <li>Tiras de alga nori para envolver</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Molde o arroz em formato triangular, coloque o recheio no centro e envolva com alga.
+            Sirva fresco e levemente salgado.
+          </p>
+        </div>
+      </div>
+
+      <div id="biscoitos" class="card-receita my-4">
+        <img src="images/biscoitos_tomejerry.jpg" alt="Biscoitos da Vovó">
+        <div class="conteudo-card p-3">
+          <h3>🍪 Biscoitos da Vovó (Tom e Jerry)</h3>
+          <p><strong>Origem:</strong> Desenho Tom e Jerry</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>2 xícaras de farinha de trigo</li>
+            <li>1/2 xícara de açúcar</li>
+            <li>100g de manteiga</li>
+            <li>1 ovo</li>
+            <li>1 colher de chá de essência de baunilha</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Misture todos os ingredientes até formar uma massa homogênea.
+            Abra com um rolo, corte com moldes e asse por 15 minutos a 180°C.
+          </p>
+        </div>
+      </div>
+
+      <div id="hamburguer" class="card-receita my-4">
+        <img src="images/hamburguer_bobesponja.jpg" alt="Hambúrguer de Siri">
+        <div class="conteudo-card p-3">
+          <h3>🍔 Hambúrguer de Siri (Bob Esponja)</h3>
+          <p><strong>Origem:</strong> Desenho Bob Esponja</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>2 pães de hambúrguer</li>
+            <li>2 hambúrgueres de carne ou vegetal</li>
+            <li>Queijo, alface, tomate e picles</li>
+            <li>Molho especial e maionese</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Monte o lanche intercalando os ingredientes.
+            Sirva quente, como no Siri Cascudo!
+          </p>
+        </div>
+      </div>
+
+      <div id="pizza" class="card-receita my-4">
+        <img src="images/pizza_tartarugasninja.jpg" alt="Pizza das Tartarugas Ninja">
+        <div class="conteudo-card p-3">
+          <h3>🍕 Pizza das Tartarugas Ninja</h3>
+          <p><strong>Origem:</strong> Desenho As Tartarugas Ninja</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>1 massa de pizza pronta</li>
+            <li>Molho de tomate</li>
+            <li>Queijo mussarela</li>
+            <li>Calabresa, azeitona e orégano</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Espalhe o molho na massa, adicione os ingredientes e asse por 20 minutos a 200°C.
+            Perfeita para comer com os amigos!
+          </p>
+        </div>
+      </div>
+
+      <div id="espaguete" class="card-receita my-4">
+        <img src="images/espaguete_damaevagabundo.jpg" alt="Espaguete da Dama e o Vagabundo">
+        <div class="conteudo-card p-3">
+          <h3>🍝 Espaguete da Dama e o Vagabundo</h3>
+          <p><strong>Origem:</strong> Filme A Dama e o Vagabundo</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>200g de espaguete</li>
+            <li>1 lata de molho de tomate</li>
+            <li>Almôndegas prontas</li>
+            <li>Queijo ralado e manjericão</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Cozinhe o macarrão e misture ao molho com as almôndegas.
+            Finalize com queijo ralado e manjericão.
+            Um prato perfeito para dividir com quem você ama ❤️
+          </p>
+        </div>
+      </div>
+
+      <div id="cookie" class="card-receita my-4">
+        <img src="images/cookie_vanellope.jpg" alt="Cookie da Vanellope">
+        <div class="conteudo-card p-3">
+          <h3>🍪 Cookie da Vanellope (Detona Ralph)</h3>
+          <p><strong>Origem:</strong> Filme Detona Ralph</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>1 xícara de manteiga</li>
+            <li>1 xícara de açúcar mascavo</li>
+            <li>2 xícaras de farinha de trigo</li>
+            <li>1 ovo e 1 colher de essência de baunilha</li>
+            <li>Chocolate granulado colorido</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Misture tudo, molde os cookies e asse por 15 minutos a 180°C.
+            Ficam crocantes por fora e macios por dentro!
+          </p>
+        </div>
+      </div>
+
+      <div id="panquecas-tocinho-jake" class="card-receita my-4">
+        <img src="images/panquecas_toucinhojake.jpg" alt="Panquecas de Tocinho do Jake">
+        <div class="conteudo-card p-3">
+          <h3>🥓🥞 Panquecas de Tocinho do Jake (Hora de Aventura)</h3>
+          <p><strong>Origem:</strong> Desenho Hora de Aventura</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>1 xícara de farinha de trigo</li>
+            <li>1 ovo</li>
+            <li>3/4 xícara de leite</li>
+            <li>1 colher de sopa de açúcar</li>
+            <li>1 colher de chá de fermento em pó</li>
+            <li>1 pitada de sal</li>
+            <li>2 fatias de bacon picadas</li>
+            <li>Manteiga para cozinhar</li>
+            <li>Maple syrup ou mel para servir</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Frite o bacon em uma frigideira até ficar crocante e reserve.
+            Misture a farinha, ovo, leite, açúcar, fermento e sal até formar uma massa homogênea.
+            Adicione pedaços do bacon crocante à massa.
+            Aqueça uma frigideira com manteiga e cozinhe pequenas porções de massa até dourar de ambos os lados.
+            Sirva quentes com maple syrup ou mel por cima.
+          </p>
+        </div>
+      </div>
+
+      <div id="ratatouille" class="card-receita my-4">
+        <img src="images/ratatouille.jpg" alt="Ratatouille">
+        <div class="conteudo-card p-3">
+          <h3>Ratatouille</h3>
+          <p><strong>Origem:</strong> Filme Ratatouille</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>1 berinjela média</li>
+            <li>1 abobrinha média</li>
+            <li>1 pimentão vermelho</li>
+            <li>1 pimentão amarelo</li>
+            <li>2 tomates médios</li>
+            <li>2 colheres de sopa de azeite</li>
+            <li>Sal, pimenta e ervas finas a gosto</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Corte todos os legumes em fatias finas.
+            Em um refratário untado com azeite, organize os legumes alternando cores.
+            Tempere com sal, pimenta e ervas.
+            Regue com azeite e leve ao forno preaquecido a 180°C por 30-40 minutos até os legumes ficarem macios.
+            Sirva quente como prato principal ou acompanhamento.
+          </p>
+        </div>
+      </div>
+
+      <div id="dangos" class="card-receita my-4">
+        <img src="images/dangos.jpg" alt="Dangos Japoneses">
+        <div class="conteudo-card p-3">
+          <h3>Dangos Japoneses</h3>
+          <p><strong>Origem:</strong> Japão / Diversos animes</p>
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>1 xícara de farinha de arroz glutinoso</li>
+            <li>3 colheres de sopa de açúcar</li>
+            <li>1/3 xícara de água morna</li>
+            <li>Molho de soja doce ou anko (pasta de feijão vermelho) para cobertura</li>
+            <li>Palitos para montar</li>
+          </ul>
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Misture a farinha de arroz com o açúcar e vá adicionando a água aos poucos até formar uma massa maleável.
+            Modele pequenas bolinhas e cozinhe em água fervente até subirem à superfície (aprox. 2-3 minutos).
+            Escorra e deixe esfriar levemente.
+            Monte 3-4 bolinhas em palitos e cubra com o molho doce ou anko.
+            Sirva morno ou à temperatura ambiente.
+          </p>
+        </div>
+      </div>
+
+      <div id="sorvete-peppa" class="card-receita my-4">
+        <img src="images/sorvete_peppa.jpg" alt="Sorvete da Peppa Pig">
+        <div class="conteudo-card p-3">
+          <h3>Sorvete da Peppa Pig</h3>
+          <p><strong>Origem:</strong> Inspirado no episódio "Ice Cream" — divertido, cremoso e perfeito para crianças!
+          </p>
+
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>500 ml de leite</li>
+            <li>200 ml de creme de leite</li>
+            <li>1/2 xícara de frutas frescas (morango ou framboesa)</li>
+            <li>2 colheres (sopa) de açúcar</li>
+            <li>Gelo</li>
+            <li>Sal grosso</li>
+          </ul>
+
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Misture o leite, o creme de leite, o açúcar e as frutas no liquidificador até obter uma mistura homogênea.
+            Coloque a mistura em um saco plástico bem fechado. Em um saco maior, coloque gelo e sal grosso. Insira o
+            saco menor com a mistura dentro.
+            Agite o saco por cerca de 5 minutos, como feito pelo Vovô Pig no episódio. Retire o saco menor, limpe-o e
+            coloque a mistura em um recipiente. Leve ao freezer até firmar.
+            Sirva em taças ou casquinhas, decorando com frutas ou calda de sua preferência.
+          </p>
+        </div>
+      </div>
+
+      <div id="beignets-tiana" class="card-receita my-4">
+        <img src="images/beignets_tiana.jpg" alt="Beignets da Tiana">
+        <div class="conteudo-card p-3">
+          <h3>Beignets da Tiana</h3>
+          <p><strong>Origem:</strong> Nova Orleans / Filme "A Princesa e o Sapo"</p>
+
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>2 e 1/4 colheres (chá) de fermento biológico seco (1 envelope)</li>
+            <li>3/4 de xícara de água morna</li>
+            <li>1/4 de xícara de açúcar</li>
+            <li>1/2 colher (chá) de sal</li>
+            <li>1 ovo</li>
+            <li>1/2 xícara de leite</li>
+            <li>3 e 1/2 xícaras de farinha de trigo (aproximadamente)</li>
+            <li>2 colheres (sopa) de manteiga derretida</li>
+            <li>Óleo para fritar</li>
+            <li>Açúcar de confeiteiro para polvilhar</li>
+          </ul>
+
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Misture o fermento com a água morna e uma colher de açúcar. Deixe descansar por 10 minutos até espumar.
+            Em seguida, adicione o restante do açúcar, o sal, o ovo, o leite e a manteiga derretida.
+            Acrescente a farinha aos poucos até formar uma massa macia e elástica. Cubra e deixe descansar por 1 hora.
+            Abra a massa com um rolo (1 cm de espessura) e corte em quadrados.
+            Frite em óleo quente até dourar dos dois lados.
+            Escorra e polvilhe com bastante açúcar de confeiteiro.
+          </p>
+
+          <p><strong>Dica da Tiana:</strong> Sirva ainda quentinhos com mel, calda de chocolate ou café forte!</p>
+        </div>
+      </div>
+
+      <div id="gumbo-tiana" class="card-receita my-4">
+        <img src="images/gumbo_tiana.png" alt="Gumbo do Pai da Tiana">
+        <div class="conteudo-card p-3">
+          <h3>Gumbo do Pai da Tiana</h3>
+          <p><strong>Origem:</strong> Nova Orleans / Filme "A Princesa e o Sapo"</p>
+
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>2 colheres (sopa) de manteiga</li>
+            <li>2 colheres (sopa) de farinha de trigo</li>
+            <li>1 cebola picada</li>
+            <li>1 pimentão verde picado</li>
+            <li>2 talos de aipo picados</li>
+            <li>2 dentes de alho picados</li>
+            <li>2 tomates maduros picados</li>
+            <li>150 g de linguiça defumada em rodelas</li>
+            <li>200 g de peito de frango em cubos</li>
+            <li>1 litro de caldo de frango</li>
+            <li>Sal, pimenta e páprica a gosto</li>
+            <li>1 folha de louro</li>
+            <li>1 colher (chá) de molho de pimenta (opcional)</li>
+            <li>Arroz branco cozido para acompanhar</li>
+          </ul>
+
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Em uma panela grande, derreta a manteiga e adicione a farinha, mexendo sempre até formar um roux (creme
+            marrom e espesso).
+            Junte a cebola, o pimentão, o aipo e o alho, refogando até ficarem macios.
+            Acrescente o frango e a linguiça e doure bem.
+            Adicione os tomates, o caldo, o louro e os temperos. Deixe cozinhar por cerca de 30 a 40 minutos, até o
+            caldo engrossar e os sabores se misturarem.
+            Sirva o gumbo sobre o arroz branco, como o pai da Tiana fazia para reunir a família em volta da mesa.
+          </p>
+
+          <p><strong>Dica do pai da Tiana:</strong> O segredo é cozinhar com amor e paciência — o sabor vem da alma!</p>
+        </div>
+      </div>
+
+      <div id="smoothie-moranguinho" class="card-receita my-4">
+        <img src="images/smoothie_moranguinho.jpg" alt="Smoothie da Moranguinho">
+        <div class="conteudo-card p-3">
+          <h3>Smoothie da Mistura Perfeita — Moranguinho</h3>
+          <p><strong>Origem:</strong> Episódio “A Mistura Perfeita” / Desenho “Moranguinho: Aventuras em Tutti Frutti”
+          </p>
+
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>1 xícara de morangos frescos</li>
+            <li>1/2 xícara de mirtilos (blueberries)</li>
+            <li>1/2 banana madura</li>
+            <li>1/2 copo de iogurte natural ou de morango</li>
+            <li>1/4 de copo de leite gelado</li>
+            <li>1 colher (sopa) de mel</li>
+            <li>Gelo a gosto</li>
+          </ul>
+
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            No episódio, Moranguinho ensina que a mistura perfeita vem do equilíbrio — por isso, combine as frutas com
+            carinho!
+            Coloque todos os ingredientes no liquidificador: morangos, mirtilos, banana, iogurte, leite e mel.
+            Bata até obter uma mistura cremosa e homogênea.
+            Acrescente gelo e bata rapidamente para deixar o smoothie bem geladinho.
+            Sirva em copos altos, decorados com pedaços de frutas e um toque de hortelã, como Moranguinho faz na loja
+            dela.
+          </p>
+
+          <p><strong>Dica da Moranguinho:</strong> Use frutas bem maduras e frescas — e misture com um sorriso para
+            criar o sabor mais doce de todos!</p>
+        </div>
+      </div>
+
+      <div id="sanduiche-jake" class="card-receita my-4">
+        <img src="images/sanduiche_jake.jpg" alt="Sanduíche Perfeito do Jake">
+        <div class="conteudo-card p-3">
+          <h3>Sanduíche Perfeito do Jake</h3>
+          <p><strong>Origem:</strong> Episódio “Sanduíche Perfeito” / Desenho “Hora de Aventura”</p>
+
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>2 fatias de pão de fermentação natural (ou pão caseiro)</li>
+            <li>2 fatias de bacon crocante</li>
+            <li>1 ovo frito com a gema mole</li>
+            <li>1 fatia de queijo derretido</li>
+            <li>1 fatia de presunto ou peito de peru</li>
+            <li>1 colher (sopa) de maionese</li>
+            <li>1 colher (chá) de mostarda</li>
+            <li>1 folha de alface</li>
+            <li>1 rodela de tomate</li>
+            <li>Toque final: uma pitada de amor (como o Jake diz 🧡)</li>
+          </ul>
+
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            No episódio, Jake viaja por todo o Reino de Ooo para encontrar os ingredientes “perfeitos”.
+            Aqui está a versão que você pode preparar em casa:
+            Comece fritando o bacon até ficar bem crocante. Em outra frigideira, frite o ovo até a gema ficar cremosa.
+            Torre levemente as fatias de pão. Espalhe maionese e mostarda em cada lado.
+            Monte o sanduíche na seguinte ordem: pão, queijo derretido, presunto, bacon, ovo, tomate e alface.
+            Feche com a outra fatia e pressione levemente.
+            Sirva ainda quente e sinta o poder do “sabor supremo” que até o Finn aprovou!
+          </p>
+
+          <p><strong>Dica do Jake:</strong> o segredo do sanduíche perfeito é a harmonia — e claro, uma boa pitada de
+            aventura!</p>
+        </div>
+      </div>
+
+      <div id="asinhas-regularshow" class="card-receita my-4">
+        <img src="images/asinhas_regularshow.png" alt="Asinhas de Frango de Apenas um Show">
+        <div class="conteudo-card p-3">
+          <h3>Asinhas de Frango</h3>
+          <p><strong>Origem:</strong> “Apenas um Show” / Episódios de maratona de comida</p>
+
+          <p><strong>Ingredientes:</strong></p>
+          <ul>
+            <li>1 kg de asinhas de frango</li>
+            <li>1 colher (chá) de sal</li>
+            <li>1 colher (chá) de páprica</li>
+            <li>1/2 colher (chá) de alho em pó</li>
+            <li>1 pitada de pimenta-do-reino</li>
+            <li>1/2 xícara de molho de pimenta (tipo buffalo ou sriracha)</li>
+            <li>2 colheres (sopa) de manteiga derretida</li>
+            <li>1 colher (sopa) de mel (opcional, para equilibrar o ardor)</li>
+            <li>Óleo para fritar ou assar</li>
+          </ul>
+
+          <p><strong>Modo de preparo:</strong></p>
+          <p>
+            Tempere as asinhas com sal, páprica, alho e pimenta. Deixe descansar por 20 minutos.
+            Frite em óleo quente (ou asse em forno a 200 °C por cerca de 35 minutos) até ficarem bem douradas e
+            crocantes.
+            Em uma panela pequena, misture o molho de pimenta com a manteiga derretida e o mel.
+            Misture as asinhas já fritas ou assadas nesse molho, envolvendo bem cada pedaço.
+            Sirva quente, acompanhadas de molho azul ou maionese temperada — como Mordecai e Rigby fazem nas maratonas
+            de jogos!
+          </p>
+
+          <p><strong>Dica do Rigby:</strong> quanto mais molho, melhor — mas cuidado pra não colocar fogo na boca! 🔥😆
+          </p>
+        </div>
+      </div>
+
+
+      <div class="text-center mt-5">
+        <a href="index.html" class="btn btn-outline-primary">Voltar ao Início</a>
       </div>
     </div>
   </section>
